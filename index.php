@@ -229,24 +229,24 @@ $_SESSION['session']=$ur_session;
     <div class="row text-center">
      <h2 class="review-tool">YOUR ULTIMATE REVIEW MARKETING TOOL!</h2>
 	  <div class="clear" style="padding-top:10px;"></div>
-    <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon1.png" alt="img"></span> <!--<a href="#">Design</a>--><p>Create beautiful feedback & review collection pages that is representative of your brand, and design questions that are meaningful for your business.</p>
+     <div class="col-sm-3"> <span><img src="images/design-icon1.png" alt="img"></span> <!--<a href="#">Design</a>--><p>Create beautiful feedback & review collection pages that is representative of your brand, and design questions that are meaningful for your business.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon2.png" alt="img"></span> <!--<a href="#">Collect</a>--><p>Tabluu excels in collecting feedback & reviews using fun, innovative and easy ways! In fact, the term "selfie review" is coined by Tabluu.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon2.png" alt="img"></span> <!--<a href="#">Collect</a>--><p>Tabluu excels in collecting feedback & reviews using fun, innovative and easy ways! In fact, the term "selfie review" is coined by Tabluu.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon3.png" alt="img"></span><!-- <a href="#">Verify</a>--><p>All feedback & reviews collected on Tabluu are instantly verified for authencity. Tabluu keeps sinister reviewers at bay.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon3.png" alt="img"></span><!-- <a href="#">Verify</a>--><p>All feedback & reviews collected on Tabluu are instantly verified for authencity. Tabluu keeps sinister reviewers at bay.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon4.png" alt="img"></span> <!--<a href="#">Analyze</a>--><p>Collect all feedback & review data real time. Data may be exported to excel for analysis purposes, helping you identify areas of improvement for your business.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon4.png" alt="img"></span> <!--<a href="#">Analyze</a>--><p>Collect all feedback & review data real time. Data may be exported to excel for analysis purposes, helping you identify areas of improvement for your business.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon5.png" alt="img"></span> <!--<a href="#">Respond</a>--><p>Get real time alerts of very negative feedback along with the customers’ contact information allowing you take the necessary actions immediately and privately.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon5.png" alt="img"></span> <!--<a href="#">Respond</a>--><p>Get real time alerts of very negative feedback along with the customers’ contact information allowing you take the necessary actions immediately and privately.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon6.png" alt="img"></span> <!--<a href="#">Manage</a>--><p>See who are your best customers and feature their reviews. Hide inappropriate images.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon6.png" alt="img"></span> <!--<a href="#">Manage</a>--><p>See who are your best customers and feature their reviews. Hide inappropriate images.</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon7.png" alt="img"></span> <!--<a href="#">Display</a>--><p>Display your best reviews on your review widgets & the customer advocacy page, helping you increase sale conversions like never before!</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon7.png" alt="img"></span> <!--<a href="#">Display</a>--><p>Display your best reviews on your review widgets & the customer advocacy page, helping you increase sale conversions like never before!</p>
       </div>
-      <div class="col-md-3 col-sm-6"> <span><img src="images/design-icon8.png" alt="img"></span> <!--<a href="#">Promote</a>--><p>Tabluu asks every customer who provided a positive feedback to recommend your business on the their social media network! It's both free & effective!</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon8.png" alt="img"></span> <!--<a href="#">Promote</a>--><p>Tabluu asks every customer who provided a positive feedback to recommend your business on the their social media network! It's both free & effective!</p>
       </div>
+	  </div>
     </div>
-  </div>
 </div>
 
 <div style="background-color:#F5F5F5">
