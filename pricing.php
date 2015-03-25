@@ -53,7 +53,7 @@ $connect->db_disconnect();
           <!-- Brand and toggle get grouped for better mobile display -->
           <div id="subiconmenu" class="navbar-sub clear">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigator"> 
-				<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<span class="sr-only">Toggle navigation</span> <span class="arrow-down"></span> <!-- <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> --> </button>
             <a class="navbar-brand nav-title" href="#">Menu</a> 
 		  </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
