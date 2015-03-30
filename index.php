@@ -197,8 +197,8 @@ $_SESSION['session']=$ur_session;
           reviews", 545 followers, 9,345 new visitors 
           & counting! <u>43% increase in business</u> from April 2014 to Jan 2015. Currently only using Tabluu for promotional & social media marketing activities.</b></p>
       </div>
-      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See It Here!</a></div>
-      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See the Tabluu page here!<small></small></a></div>
+      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://www.tabluu.com/09z9wxb.html" target="_blank">Results</a><div style="clear:both;padding-top:20px;"></div><a class="pull-right" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview</a></div>
+      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" style="margin-bottom:10px" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See the Tabluu page here!<small></small></a><a class="timer-btn green full-btn visible-xss" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview<small></small></a></div>
       
     </div>
     <div class="row">
@@ -229,21 +229,21 @@ $_SESSION['session']=$ur_session;
     <div class="row text-center">
      <h2 class="review-tool">YOUR ULTIMATE REVIEW MARKETING TOOL!</h2>
 	  <div class="clear" style="padding-top:10px;"></div>
-     <div class="col-sm-3"> <span><img src="images/design-icon1.png" alt="img"></span> <!--<a href="#">Design</a>--><p>Create beautiful feedback & review collection pages that is representative of your brand, and design questions that are meaningful for your business.</p>
+     <div class="col-sm-3"> <span><img src="images/design-icon1.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/design" target="_blank">Design</a><p>Create beautiful feedback & review collection pages that is representative of your brand, and design questions that are meaningful for your business.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon2.png" alt="img"></span> <!--<a href="#">Collect</a>--><p>Tabluu excels in collecting feedback & reviews using fun, innovative and easy ways! In fact, the term "selfie review" is coined by Tabluu.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon2.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/collect" target="_blank">Collect</a><p>Tabluu excels in collecting feedback & reviews using fun, innovative and easy ways! In fact, the term "selfie review" is coined by Tabluu.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon3.png" alt="img"></span><!-- <a href="#">Verify</a>--><p>All feedback & reviews collected on Tabluu are instantly verified for authencity. Tabluu keeps sinister reviewers at bay.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon3.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/verify" target="_blank">Verify</a><p>All feedback & reviews collected on Tabluu are instantly verified for authencity. Tabluu keeps sinister reviewers at bay.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon4.png" alt="img"></span> <!--<a href="#">Analyze</a>--><p>Collect all feedback & review data real time. Data may be exported to excel for analysis purposes, helping you identify areas of improvement for your business.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon4.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/analyze" target="_blank">Analyze</a><p>Collect all feedback & review data real time. Data may be exported to excel for analysis purposes, helping you identify areas of improvement for your business.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon5.png" alt="img"></span> <!--<a href="#">Respond</a>--><p>Get real time alerts of very negative feedback along with the customers’ contact information allowing you take the necessary actions immediately and privately.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon5.png" alt="img"></span> <a href="https://tabluu.com/blog/category/tabluu/features/respond" target="_blank">Respond</a><p>Get real time alerts of very negative feedback along with the customers’ contact information allowing you take the necessary actions immediately and privately.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon6.png" alt="img"></span> <!--<a href="#">Manage</a>--><p>See who are your best customers and feature their reviews. Hide inappropriate images.</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon6.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/manage" target="_blank">Manage</a><p>See who are your best customers and feature their reviews. Hide inappropriate images.</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon7.png" alt="img"></span> <!--<a href="#">Display</a>--><p>Display your best reviews on your review widgets & the customer advocacy page, helping you increase sale conversions like never before!</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon7.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/display" target="_blank">Display</a><p>Display your best reviews on your review widgets & the customer advocacy page, helping you increase sale conversions like never before!</p>
       </div>
-      <div class="col-sm-3"> <span><img src="images/design-icon8.png" alt="img"></span> <!--<a href="#">Promote</a>--><p>Tabluu asks every customer who provided a positive feedback to recommend your business on the their social media network! It's both free & effective!</p>
+      <div class="col-sm-3"> <span><img src="images/design-icon8.png" alt="img"></span><a href="https://tabluu.com/blog/category/tabluu/features/promote" target="_blank">Promote</a><p>Tabluu asks every customer who provided a positive feedback to recommend your business on the their social media network! It's both free & effective!</p>
       </div>
 	  </div>
     </div>
