@@ -116,16 +116,16 @@ $_SESSION['session']=$ur_session;
       <div class="col-sm-5 happy"><a href="https://www.tabluu.com/pricing.html">See Pricing</a> <a href="#" class="signupbtn">Start Now</a></div>
     </div>
     <div class="border-bottom">
-      <div class="row">
+      <!-- <div class="row"> -->
         <div class="col-sm-8 padding-r left-width">
           <ul class="bxslider">
-            <li><img src="images/slider1.png" alt="img">
+            <li><img src="images/slider1copy.png" alt="img" class="img-responsive">
               <div class="banner-text"></div>
             </li>
-            <li><img src="images/slider2.png" alt="img">
+            <li><img src="images/slider2copy.png" alt="img" class="img-responsive">
               <div class="banner-text"></div>
             </li>
-            <li><img src="images/slider3.png" alt="img">
+            <li><img src="images/slider3copy.png" alt="img" class="img-responsive">
               <div class="banner-text"></div>
             </li>
           </ul>
@@ -142,7 +142,7 @@ $_SESSION['session']=$ur_session;
             <p>Friends of your customers are invited to visit your high converting Tabluu page!</p>
             </a> </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </div>
