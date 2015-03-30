@@ -340,10 +340,12 @@ footer{text-align:center;}
 }
 @media (max-width: 539px) {
 	#subiconmenu .navbar-toggle { margin-top:-80px !important; }
+	.pricing .contentwrap {height: 420px;}
 }
 @media (max-width: 350px) {
 	#subiconmenu .navbar-toggle { margin-top:-90px !important; }
 }
+
 @media (max-width: 225px) {
 	#subiconmenu .navbar-toggle { margin-top:-100px !important; }
 	.pricing .contentwrap {height: 420px !important;}
