@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tabluu's contact us page</title>
     <link href="css/bootstrap.css" rel="stylesheet" media="all">
 	<link href="css/style.css" rel="stylesheet" media="all">
