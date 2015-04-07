@@ -42,6 +42,7 @@ $connect->db_disconnect();
 <input type="hidden" value="<?php echo $row->accounts;?>" name="accounts" id="accounts" />
 <input type="hidden" value="<?php echo $row->accountleft;?>" name="accountleft" id="accountleft" />
 <span class="worday" style="height:0.1px"></span>
+<?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
 <div style="width:100%;min-width:287px;">		  
 <section class="plan-section text-center clear">

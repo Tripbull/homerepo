@@ -24,6 +24,7 @@ $_SESSION['session']=$ur_session;
 </head>
 
 <body>
+<?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
 <div class="flexslider">
   <ul class="slides">

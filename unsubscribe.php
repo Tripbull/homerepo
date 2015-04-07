@@ -42,6 +42,7 @@ if(isset($_REQUEST['id']) || isset($_REQUEST['confirm'])){
 <link href="css/style.css" rel="stylesheet" media="all">
 </head>
 <body>
+<?php require_once('browser_detection.php'); ?>
    <?php require_once('header.html'); ?>
     <section class="unsubscribe" style="height:450px;">
         <div class="text-center container">
