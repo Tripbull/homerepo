@@ -10,6 +10,7 @@
 	<?php include_once("analyticstracking.php") ?>
 </head>
 <body class="contactpage">
+<?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
     <section>
     	<div class="container">

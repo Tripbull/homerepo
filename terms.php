@@ -11,6 +11,7 @@
 	<?php include_once("analyticstracking.php") ?>
 </head>
 <body class="termspage">
+<?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
     <section class="terms clear">
     	<div class="container">
