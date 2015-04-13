@@ -22,6 +22,7 @@ $totalPages = ceil($numberOfRows / $limit);
 	<script type="text/javascript" src="js/sharephoto.js"></script>
 </head>
 <body class="home">
+<?php require_once('browser_detection.php'); ?>
    <?php require_once('header.html'); ?>	
 	<section id="photo" >
 	<?php
