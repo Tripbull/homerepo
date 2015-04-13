@@ -42,6 +42,7 @@ $connect->db_disconnect();
 <input type="hidden" value="<?php echo $row->accounts;?>" name="accounts" id="accounts" />
 <input type="hidden" value="<?php echo $row->accountleft;?>" name="accountleft" id="accountleft" />
 <span class="worday" style="height:0.1px"></span>
+<?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
 <div style="width:100%;min-width:287px;">		  
 <section class="plan-section text-center clear">
@@ -53,7 +54,7 @@ $connect->db_disconnect();
           <!-- Brand and toggle get grouped for better mobile display -->
           <div id="subiconmenu" class="navbar-sub clear">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigator"> 
-				<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<span class="sr-only">Toggle navigation</span> <span class="arrow-down"></span> <!-- <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> --> </button>
             <a class="navbar-brand nav-title" href="#">Menu</a> 
 		  </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,7 +92,7 @@ $connect->db_disconnect();
 			<div class="contentwrap">
 			<h4 class="plan-title">Basic</h4>
 			<p class="plan-subtitle">Discover</p>
-			<p class="price"><span class="basic-price">$9.90</span><span style="font-size:15px;float:right;margin-right:20px">monthly <br/> per location</span></p>
+			<p class="price"><span class="basic-price">$9.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
 			<p class="plan-subtitle2">Get all these features...</p>
 			<ul>
 				<li>Collect feedback & reviews using fun & innovative ways</li>
@@ -106,7 +107,7 @@ $connect->db_disconnect();
 			<div class="contentwrap">
 			<h4 class="plan-title">Pro</h4>
 			<p class="plan-subtitle">Optimize</p>
-			<p class="price"><span class="pro-price">$29.90</span><span style="font-size:15px;float:right;margin-right:20px">monthly <br/> per location</span></p>
+			<p class="price"><span class="pro-price">$29.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
 			<p class="plan-subtitle2">Get all the features from the Basic plan... plus...</p>
 			<ul>
 				<li>Manage your Tabluu reviews</li>
@@ -121,7 +122,7 @@ $connect->db_disconnect();
 			<div class="contentwrap">
 			<h4 class="plan-title">Enterprise</h4>
 			<p class="plan-subtitle">Supercharge</p>
-			<p class="price"><span class="enter-price">$59.90</span><span style="font-size:15px;float:right;margin-right:20px">monthly <br/> per location</span></p>
+			<p class="price"><span class="enter-price">$59.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
 			<p class="plan-subtitle2">Get all the features from the Pro plan... plus...</p>
 			<ul>
 				<li>Real time poor feedback alerts</li>

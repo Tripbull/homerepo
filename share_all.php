@@ -70,7 +70,13 @@ $totalPages = ceil($numberOfRows / $limit);
 	?>
 		<div class="frame">
 			<div class="framecontent">
-				<img src="<?php echo $row->photo_url ?>" class="photos"/>
+				<?php
+					if(trim($row->photo_url) != '')
+						$imagesrc =  'app/'.$row->photo_url;
+					else
+						$imagesrc =  "https://graph.facebook.com/{$row->userId}/picture?width=400&height=400";
+				?>
+				<img src="<?=$imagesrc?>" class="photos"/>
 				<div class="info">
 					<p style="padding:5px"><a href="https://www.facebook.com/<?php echo $row->userId ?>" target="_blank" ><?php echo $row->userName ?></a></p>
 					<p style="padding:5px"><a href="https://www.tabluu.com/<?php echo $row->nicename ?>.html" target="_blank" >Tabluu Page</a></p>

@@ -1,10 +1,9 @@
 $(document).ready(function(){
-	// pre-launch code start here
 	var tempdomail = '',istimerunning = 1;
 	if($('#campaign').val() > 1)
-		tempdomail = 'http://www.tabluu.com/app/beta.html';
+		tempdomail = 'https://www.tabluu.com/app/beta.html';
 	else
-		tempdomail = 'http://www.tabluu.com/app/alpha.html'
+		tempdomail = 'https://www.tabluu.com/app/alpha.html'
  
 	function setuplink(){
 		if(istimerunning > 0){
@@ -92,9 +91,6 @@ $(document).ready(function(){
 		selectedDate = new Date().valueOf();
 	  clock.countdown(selectedDate.toString());
   }
-  // end of prelaunch code
-  
-  
 	 function showLoader(){loader = jQuery('<div id="overlay"></div>');loader.appendTo(document.body);}
 	 function hideLoader(){$( "#overlay" ).remove();}
 	 function alertBox2(title,message){
@@ -107,50 +103,106 @@ $(document).ready(function(){
 			'buttons':  [{caption: 'okay',callback:function(){setTimeout(function(){getEmail();},300);}}]
 		});
 	}
-	// top menu monthly - 1 yearly - 2 yearly
 	$( ".month-plan" ).click(function(e) {
 		e.preventDefault();
 		$('a.month-plan div').removeClass('dark');$('a.year-plan div').removeClass('dark');$('a.year2-plan div').removeClass('dark');
 		$('a.month-plan div').addClass('dark');
-		var basicprice = '$9.90',proprice = '$29.90',enterpriseprice = '$59.90',textmonthly = 'monthly';
-		var basic = basicprice,pro = proprice,enterprise = enterpriseprice;
+		var basicprice = '$9.90',proprice = '$29.90',enterpriseprice = '$59.90';
+		var basic = basicprice; /*'<div class="cap float-left">'
+						+basicprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>'; */
+		var pro = proprice; /*'<div class="cap float-left">'
+						+proprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
+		var enterprise = enterpriseprice;/*'<div class="cap float-left">'
+						+enterpriseprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
 		$('.basic-price').html(basic);
 		$('.pro-price').html(pro);
 		$('.enter-price').html(enterprise);
-		$('.txtmontly').html(textmonthly);
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3356305/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3356306/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3356316/subscriptions/new'); */
+	//$('#basic-link').attr('href', tempdomail);
+	//$('#pro-link').attr('href', tempdomail);
+	//$('#enter-link').attr('href', tempdomail);
 
 	});
 	$( ".year-plan" ).click(function(e) {
 		e.preventDefault();
 		$('a.month-plan div').removeClass('dark');$('a.year-plan div').removeClass('dark');$('a.year2-plan div').removeClass('dark');
 		$('a.year-plan div').addClass('dark');
-		var basicprice = '$118.80',proprice = '$358.80',enterpriseprice = '$718.80',textmonthly = '1 yearly';
-		var basic = basicprice,pro = proprice,enterprise = enterpriseprice;
+		var basicprice = '$118.80',proprice = '$358.80',enterpriseprice = '$718.80';
+		var basic = basicprice; /*'<div class="cap float-left">'
+						+basicprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>'; */
+		var pro = proprice; /*'<div class="cap float-left">'
+						+proprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
+		var enterprise = enterpriseprice;/*'<div class="cap float-left">'
+						+enterpriseprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
 		$('.basic-price').html(basic);
 		$('.pro-price').html(pro);
 		$('.enter-price').html(enterprise);
-		$('.txtmontly').html(textmonthly);
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3405343/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3405345/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3410620/subscriptions/new'); */
+	//$('#basic-link').attr('href', tempdomail);
+	//$('#pro-link').attr('href', tempdomail);
+	//$('#enter-link').attr('href', tempdomail);
+		
 	});
 	$( ".year2-plan" ).click(function(e) {
 		e.preventDefault();
 		$('a.month-plan div').removeClass('dark');$('a.year-plan div').removeClass('dark');$('a.year2-plan div').removeClass('dark');
 		$('a.year2-plan div').addClass('dark');
-		var basicprice = '$237.60',proprice = '$717.60',enterpriseprice = '$1,437.60',textmonthly = '2 yearly';
-		var basic = basicprice,pro = proprice,enterprise = enterpriseprice;
+		var basicprice = '$237.60',proprice = '$717.60',enterpriseprice = '$1,437.60';
+		var basic = basicprice; /*'<div class="cap float-left">'
+						+basicprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>'; */
+		var pro = proprice; /*'<div class="cap float-left">'
+						+proprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
+		var enterprise = enterpriseprice;/*'<div class="cap float-left">'
+						+enterpriseprice
+					+'</div>'
+					+'<div class="cap-2 float-left align-left">'
+						+'monthly <br/> per location'
+					+'</div>';*/
 		$('.basic-price').html(basic);
 		$('.pro-price').html(pro);
 		$('.enter-price').html(enterprise);
-		$('.txtmontly').html(textmonthly);
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3405344/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3405346/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3410619/subscriptions/new');*/
-
+		//$('#basic-link').attr('href', tempdomail);
+		//$('#pro-link').attr('href', tempdomail);
+		//$('#enter-link').attr('href', tempdomail);
 		
 	});
 });
