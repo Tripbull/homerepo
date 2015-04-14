@@ -1,5 +1,7 @@
 <?php
 require_once 'class/class.phpmailer2.php';
+include_once('class/class.main.php');
+$connect = new db();
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $subject = $_REQUEST['subject'];
@@ -10,7 +12,7 @@ $setting = $_REQUEST['setting'];
 $message = "<p>name: ".$name."</p>" . "<p>subject: ".$subject."</p>" . "<p>message: ".$message."</p>";
 $mail = new PHPMailer;
 $mail->IsAmazonSES();
-$mail->AddAmazonSESKey('AKIAIL3G7TGANBAQ72GA', 'NcAMmOs6nL1GyOocYeRIVMGp4i4FPID0SLCo6ePY');                            // Enable SMTP authentication
+$mail->AddAmazonSESKey($connect->aws_access_key_id, $connect->aws_secret_key);
 $mail->CharSet =	"UTF-8";                      // SMTP secret 
 if($setting){
 	$mail->From = 'support@tabluu.com';
