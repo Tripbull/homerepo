@@ -71,7 +71,7 @@ footer ul li a:hover {color:#fff; }
 /* Bx slider css Start Here */
 .padding-none { padding:0px; }
 .border-bottom { width:100%; float:left; /*background:url(../images/sliderbg.png) no-repeat;*/ padding-bottom:30px; /*padding-left:84px;*/ padding-top:6px; margin-top:45px; }
-.border-bottom .col-sm-4 { margin-left:-15px;margin-top:-10px;}
+.border-bottom .col-sm-4 { margin-left:-15px;margin-top:10px;}
 #bx-pager h2 { font-size:17px; font-family: 'OpenSansSemibold'; color:#00aeef; padding-top:15px; padding-bottom:4px; font-weight:500; background:url(../images/line.jpg) no-repeat left bottom; text-decoration:none; margin:0px; }
 #bx-pager p { font-size:13px; color:#555; padding:7px 0px; text-decoration:none; line-height:20px; }
 #bx-pager a { width:100%; min-height:127px; float:left; text-decoration:none; padding-left:31px; margin-top:5px; background:#eeeded; }
