@@ -2,6 +2,7 @@ $(document).ready(function() {
 		var istimerunning = 1;
 	$('.signupbtn').click(function(e){
 		e.preventDefault();		
+		/*
 		if(istimerunning > 0){
 			showLoader();
 			var data = 'opt=btngetcoupon&type='+$('#campaign').val();
@@ -18,7 +19,8 @@ $(document).ready(function() {
 				}
 			}});
 		}else
-			getEmail();
+			getEmail(); */
+			window.location = 'app/signup.html?type=1&plan=basic';
 	});
 	function getEmail(){
 		$.box_Dialog(
@@ -76,7 +78,7 @@ $(document).ready(function() {
 	  $('.sec').html(event.strftime('%S'));
 		istimerunning = 0;
     });
-  switches();
+  //switches();
   function switches() {
     //var val = $(this).val().toString().match(/^([0-9\.]{1,})([a-z]{1})$/),
 	    var val = $('#txttime').val().split('_')

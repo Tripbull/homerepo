@@ -3,7 +3,10 @@
 <head>
     <meta name="robots" content="index, follow"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Tabluu's pricing page</title>
+	<meta name="title" content="Pricing - Tabluu">
+	<meta name="description" content="Here are the pricing plans for Tabluu. Pick a plan of your choice and sign up now!">
+	<meta name="keywords" content="tabluu pricing, pricing tabluu, tabluu">
+	<title>Pricing - Tabluu</title>
     <link href="css/bootstrap.css" rel="stylesheet" media="all">
 	<link href="css/style.css" rel="stylesheet" media="all">
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
@@ -18,6 +21,7 @@
 </head>
 <body class="pricing">
 <?php
+/*
 include_once('class/class.main.php');
 $connect = new db();
 $connect->db_connect();
@@ -34,13 +38,14 @@ if(mysql_num_rows($result)){
 	$startdate = $schedule_date->format('Y/m/d H:i:s');
 }
 $connect->db_disconnect();		  
+*/
 ?>
-<input type="hidden" value="<?php echo $isclokstart;?>" name="isclokstart" id="isclokstart" />
-<input type="hidden" value="<?php echo $row->selects;?>" name="txttime" id="txttime" />
-<input type="hidden" value="<?php echo $startdate?>" name="stardate" id="stardate" />
-<input type="hidden" value="<?php echo $row->campaign;?>" name="campaign" id="campaign" />
-<input type="hidden" value="<?php echo $row->accounts;?>" name="accounts" id="accounts" />
-<input type="hidden" value="<?php echo $row->accountleft;?>" name="accountleft" id="accountleft" />
+<input type="hidden" value="<?php //echo $isclokstart;?>" name="isclokstart" id="isclokstart" />
+<input type="hidden" value="<?php //echo $row->selects;?>" name="txttime" id="txttime" />
+<input type="hidden" value="<?php //echo $startdate?>" name="stardate" id="stardate" />
+<input type="hidden" value="<?php //echo $row->campaign;?>" name="campaign" id="campaign" />
+<input type="hidden" value="<?php //echo $row->accounts;?>" name="accounts" id="accounts" />
+<input type="hidden" value="<?php //echo $row->accountleft;?>" name="accountleft" id="accountleft" />
 <span class="worday" style="height:0.1px"></span>
 <?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>

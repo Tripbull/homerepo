@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 $ur_session = rand(0, 15);
 $_SESSION['session']=$ur_session;
@@ -8,7 +8,11 @@ $_SESSION['session']=$ur_session;
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tabluu is Your Ultimate "Selfie" Review Marketing Tool!</title>
+<meta name="google-site-verification" content="EQez1wVJd5ruzADIL1OQrBMh391ORWp8Nzfkpkhpso8" />
+<title>Tabluu - Collect & Promote X Selfie Reviews & Boost Sales</title>
+<meta name="title" content="Tabluu - Collect & Promote X Selfie Reviews & Boost Sales">
+<meta name="keywords" content="increase sales, hotel reviews, restaurant marketing, selfie review, restaurant reviews, spa review, boost sales, Tabluu">
+<meta name="description" content="Use Tabluu's X Sefie Review feature to get amazing spa, restaurant, and hotel reviews and increase sales today. Sign up now to Tabluu today.">
 <link href="css/bootstrap.css" rel="stylesheet" media="all">
 <link href="css/style.css" rel="stylesheet" media="all">
 <link rel="stylesheet" href="css/flexslider.css" media="all">
@@ -30,22 +34,23 @@ $_SESSION['session']=$ur_session;
   <ul class="slides">
     <li><img src="images/slider1.jpg"><span>
       <h3>Happy customers make great advocates for your business</h3>
-      <h2>Start collecting & promoting "Selfie Reviews" today!</h2>
+      <h2>GET YOUR CUSTOMERS TO POST "SELFIE REVIEWS" TO THEIR OWN FACEBOOK PAGES EASILY!</h2>
       </span></li>
     <li><img src="images/m-slider2.jpg"><span>
-      <h3>Your business info & good reviews posted!</h3>
-      <h2>Customers on a mobile smart phone may call your business directly with one click!</h2>
+      <h3>Only good reviews & ratings are shared on the social media!</h3>
+      <h2>Because Tabluu asks only reviewers who want to recommend your business to share their experience.</h2>
       </span></li>
     <li><img src="images/m-slider3.jpg"><span>
-      <h3>Customers advocacy in action!</h3>
+      <h3>Every interaction on the social media benefits your business.</h3>
       <h2>Your customers engage their friends while your business gets promoted!</h2>
       </span></li>
     <li><img src="images/m-slider4.jpg"><span>
-      <h3>Strong call to action using "Selfie Reviews"!</h3>
-      <h2>Friends of your customers are invited to visit your high converting Tabluu page!</h2>
+      <h3>Customers advocacy in action!</h3>
+      <h2>Your brand name, address, phone & positive ratings displayed on your customers' photos!</h2>
       </span></li>
   </ul>
 </div>
+<!--
 <div class="banner-section">
   <div class="container">
     <div class="row">
@@ -53,22 +58,22 @@ $_SESSION['session']=$ur_session;
         <div class="col-sm-9">
           <div class="banner">
             <div class="banner-text">
-              <h2>PRE-LAUNCH <br/>GIVEAWAY!</h2>
-              <p>Get Tabluu's 12 months Enterprise plan, <br/>
-                worth $718.80 for FREE!<br/><br/>
+              <h2>PRE-LAUNCH <br/>DEAL!</h2>
+              <p>Get Tabluu's 12 months Enterprise plan<br/> for $19.90!
                 Limited to the first 150 sign ups only.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="timer">
-          <h2 class="visible-xs"><small>PRE-LAUNCH</small><br/>GIVEAWAY!</h2>
+          <h2 class="visible-xs"><small>PRE-LAUNCH</small><br/>DEAL!</h2>
 		  <?php
+		  /*
 			include_once('class/class.main.php');
 			$connect = new db();
 			$connect->db_connect();
 			$isclokstart = 0;
-			$result = mysql_query("SELECT `time` as selects,is_started, `stardate`, `campaign`, `accounts`, `accountleft` FROM `businessClockcounter` WHERE 1 ") or die(mysql_error());
+			$result = mysql_query("SELECT `time` as selects,is_started, `stardate`, `campaign`, `accounts`, `accountleft` FROM `businessClockcounter` WHERE 1 ");
 			if(mysql_num_rows($result)){
 				$row = mysql_fetch_object($result);
 				$isclokstart = $row->is_started;
@@ -79,24 +84,24 @@ $_SESSION['session']=$ur_session;
 				$schedule_date->setTimeZone(new DateTimeZone($user_tz));
 				$startdate = $schedule_date->format('Y/m/d H:i:s');
 			}
-			$connect->db_disconnect();		  
+			$connect->db_disconnect();	*/	  
 		  ?>
-			<input type="hidden" value="<?php echo $isclokstart;?>" name="isclokstart" id="isclokstart" />
-			<input type="hidden" value="<?php echo $row->selects;?>" name="txttime" id="txttime" />
-			<input type="hidden" value="<?php echo $startdate?>" name="stardate" id="stardate" />
-			<input type="hidden" value="<?php echo $row->campaign;?>" name="campaign" id="campaign" />
-			<input type="hidden" value="<?php echo $row->accounts;?>" name="accounts" id="accounts" />
-			<input type="hidden" value="<?php echo $row->accountleft;?>" name="accountleft" id="accountleft" />
+			<input type="hidden" value="<?php //echo $isclokstart;?>" name="isclokstart" id="isclokstart" />
+			<input type="hidden" value="<?php //echo $row->selects;?>" name="txttime" id="txttime" />
+			<input type="hidden" value="<?php //echo $startdate?>" name="stardate" id="stardate" />
+			<input type="hidden" value="<?php //echo $row->campaign;?>" name="campaign" id="campaign" />
+			<input type="hidden" value="<?php //echo $row->accounts;?>" name="accounts" id="accounts" />
+			<input type="hidden" value="<?php //echo $row->accountleft;?>" name="accountleft" id="accountleft" />
           <h2 class="hidden-xs clock worday" ></h2>
 		  <div class="stopwatch visible-xs week"><b class="m-week">00</b><span ><br/> Wks.</span></div>
           <div class="stopwatch visible-xs" style="display:inline-block !important;"><b class="day">00</b><span> <br/>Days</span></div>
           <div class="stopwatch"><b class="hour">00</b><span> <br/>Hrs.</span></div>
           <div class="stopwatch"><b class="min">00</b><span> <br/>Mins.</span></div>
           <div class="stopwatch"><b class="sec">00</b><span> <br/>Secs.</span></div>
-          <p class="hidden-xs <?php echo ($row->accounts <= $row->accountleft  ? '' : 'hide')?>" >(Accounts left: <?php echo $row->accounts;?>)</p>
-          <h3 class="mobile-offer visible-xs">Get Tabluu's 12 months Enterprise plan, worth <span>$718.80</span> @ only <b>FREE</b></h3>
+          <p class="hidden-xs <?php //echo ($row->accounts <= $row->accountleft  ? '' : 'hide')?>" >(Accounts left: <?php //echo $row->accounts;?>)</p>
+          <h3 class="mobile-offer visible-xs">Get Tabluu's 12 months Enterprise plan for <b>$19.90</b></h3>
           <h6 class="visible-xs limit-info">Limited to the first 150 sign ups only.</h6>
-          <h3 class="hidden-xs"><span>$718.80</span>  &nbsp; &nbsp; $0.00</h3>
+          <h3 class="hidden-xs">  &nbsp; &nbsp; Special price: $19.90</h3>
           <a class="timer-btn hidden-xs signupbtn" href="#">Get It Now!</a>
           <a class="timer-btn green visible-xs signupbtn" href="#">Sign Up Now!</a>
           <small class="account-left visible-xs"></small>
@@ -105,9 +110,10 @@ $_SESSION['session']=$ur_session;
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <div class="container">
   <div class="content">
+	<!--
     <div class="row none">
       <div class="col-sm-7 happy">
        <h2>HAPPY CUSTOMERS MAKE GREAT <br/>
@@ -115,7 +121,13 @@ $_SESSION['session']=$ur_session;
         <p><b>Start collecting & promoting "selfie reviews" today!</b></p>
       </div>
       <div class="col-sm-5 happy"><a href="https://www.tabluu.com/pricing.html">See Pricing</a> <a href="#" class="signupbtn">Start Now</a></div>
+    </div> --> 
+	<div class="row none">
+      <div class="cust-post">
+       <h1>GET YOUR CUSTOMERS TO POST "SELFIE REVIEWS" <br/> TO THEIR OWN FACEBOOK PAGES EASILY!</h1>
+	  </div>
     </div>
+	
     <div class="border-bottom">
       <!-- <div class="row"> -->
         <div class="col-sm-8 padding-r left-width">
@@ -133,54 +145,109 @@ $_SESSION['session']=$ur_session;
         </div>
         <div class="col-sm-4 padding-none right-width">
           <div id="bx-pager"> <a data-slide-index="0" href="">
-            <h2>Your business info & good reviews posted!</h2>
-            <p>Potential customers on a smart phone may call your business directly with just one click!</p>
+            <h2>Only good reviews & ratings are shared on the social media!</h2>
+            <p>Because Tabluu asks only reviewers who want to recommend your business to share their experience.</p>
             </a> <a data-slide-index="1" href="">
-            <h2>Customers advocacy in action!</h2>
+            <h2>Every interaction on the social media benefits your business.</h2>
             <p>Your customers engage their friends while your business gets promoted!</p>
             </a> <a data-slide-index="2" href="">
-            <h2>Strong call to action using "Selfie Reviews"</h2>
-            <p>Friends of your customers are invited to visit your high converting Tabluu page!</p>
+            <h2>Customer advocacy in action!</h2>
+            <p>Your brand name, address, phone & positive ratings displayed on your customers' photos!</p>
             </a> </div>
         </div>
       <!-- </div> -->
     </div>
   </div>
 </div>
-<div class="feedback">
-  <div class="container">
-    <h2>innovative ways to GET feedback & reviews </h2>
-    <div class="row text-center">
-      <div class="col-sm-4"> <span><img src="images/icon1.png" width="196" height="195" alt="img"></span>
-        <h3>Email <br/>
-          invitations</h3>
-      </div>
-      <div class="col-sm-4"> <span><img src="images/icon2.png" width="196" height="195" alt="img"></span>
-        <h3>Surveys</h3>
-      </div>
-      <div class="col-sm-4"> <span><img src="images/icon3.png" width="196" height="195" alt="img"></span>
-        <h3>Photo booth</h3>
-      </div>
-      
-      </div>
-      
-      <div class="row text-center">
-      <div class="col-sm-4"> <span><img src="images/icon4.png" width="196" height="195" alt="img"></span>
-        <h3>QR codes</h3>
-      </div>
-      <div class="col-sm-4"> <span><img src="images/icon5.png" width="196" height="195" alt="img"></span>
-        <h3>Feedback stations</h3>
-      </div>
-      <div class="col-sm-4"> <span><img src="images/icon6.png" width="196" height="195" alt="img"></span>
-        <h3>Post selfies</h3>
-      </div>
-    </div>
-   <!-- <div class="viewall visible-xs"><a href="#">click here to view more</a></div>-->
-  </div>
+<div class="qrcode-wrap">
+<div class="container">
+	<div class="qrcode-content">
+		<div class="cust-post">
+		   <h1>JUST DISPLAY 20 'POST YOUR "X" SELFIE' <br/>MESSAGE PRINTS LIKE THIS ONE...</h1>
+		   <div class="clear" style="padding:1em 0;"></div>
+			<div class="hidden-xs">
+				<div class="tblcontainer">
+					<div class="row">
+						<div class="left text-right">
+							<img src="images/x_selfie_message_print.png" class="dqrcodeprint" />
+						</div>
+						<div class="right text-left">
+							<div class="text-left dqrcodetxt">
+							<ul>
+								<li class="nostyle"><b>DISPLAY THEM AT:</b></li>
+								<li>LOBBIES</li>
+								<li>DINNING TABLES</li>
+								<li>POOL SIDE TABLES</li>
+								<li>HOTEL ROOMS</li>
+								<li>OPENING EVENTS</li>
+								<li>WAITING AREAS</li>											
+								<li>EXHIBITION HALLS</li>
+								<li>LOUNGES</li>
+								<li>ATTRACTIONS</li>
+								<li>OTHER "CHILL OUT" SPOTS</li>
+							</ul>
+							</div> 
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="clear" style="padding:0.7em 0;"></div>
+					<p>Demo mobile link:</p> 
+					<a href="http://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>  (i.e. not supported)
+				</div>
+				<div class="clear" style="padding:0.7em 0;"></div>
+				<div class="selfiereview text-center">"X" Selfie = Selfie + Review</div>
+				<div class="clear" style="padding:1em 0;"></div>
+				<div class="tblcontainer">
+					<div class="row">
+						<div class="left text-right">
+							<div class="link" style="margin-right:40px"><a href="https://www.tabluu.com/pricing.html">See Pricing</a></div>
+						</div>
+						<div class="right text-left">
+							<div class="link" style="margin-left:40px"><a href="#" class="signupbtn">Start Now!</a></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="visible-xs text-center">
+				<img src="images/x_selfie_message_print.png" class="self-img" />
+				<div class="clear" style="padding:1em"></div>
+				<div class="text-left" style="width:350px;margin:0 auto"> 
+					<ul>
+						<li class="nostyle"><b>DISPLAY THEM AT:</b></li>
+						<li>LOBBIES</li>
+						<li>DINNING TABLES</li>
+						<li>POOL SIDE TABLES</li>
+						<li>HOTEL ROOMS</li>
+						<li>OPENING EVENTS</li>
+						<li>WAITING AREAS</li>							
+						<li>EXHIBITION HALLS</li>
+						<li>LOUNGES</li>
+						<li>ATTRACTIONS</li>
+						<li>OTHER "CHILL OUT" SPOTS</li>	
+						
+					</ul>
+				</div>
+				<div class="text-center">
+					<div class="clear" style="padding:0.5em 0;"></div>
+					<p>Demo mobile link:</p> 
+					<a href="http://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>  (i.e. not supported)
+				</div>
+				<div class="clear" style="padding:0.7em 0;"></div>
+				<div style="width:100%;background-color:#ccc;padding:3px 0;line-height:30px; font-size:22px;padding:7px" class="text-center">"X" Selfie = Selfie + Review</div>
+				<div class="clear" style="padding:0.4em 0;"></div>
+				<div class="visible-xs"><a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://www.tabluu.com/pricing.html">See Pricing</a><br/>
+				<a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://www.tabluu.com/09z9wxb.html" target="_blank">Start Now</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>  
 </div>
 <div class="users">
   <div class="container">
-    <h2>WHAT OUR BETA USERS ARE SAYING…</h2>
+    <h2>WHAT OUR USERS ARE SAYING…</h2>
     <div class="row">
       <div class="col-sm-4">
         <div class="userimg"><img class="img-responsive" src="images/userimg.png" width="252" height="316" alt="img"></div>
@@ -198,8 +265,8 @@ $_SESSION['session']=$ur_session;
           reviews", 545 followers, 9,345 new visitors 
           & counting! <u>43% increase in business</u> from April 2014 to Jan 2015. Currently only using Tabluu for promotional & social media marketing activities.</b></p>
       </div>
-      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://www.tabluu.com/09z9wxb.html" target="_blank">Results</a><div style="clear:both;padding-top:20px;"></div><a class="pull-right" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview</a></div>
-      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" style="margin-bottom:10px" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See the Tabluu page here!<small></small></a><a class="timer-btn green full-btn visible-xss" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview<small></small></a></div>
+      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://www.tabluu.com/09z9wxb.html" target="_blank" >Results</a><div style="clear:both;padding-top:20px;"></div><a class="pull-right" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview</a></div>
+      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" style="margin-bottom:10px" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See the results here!<small></small></a><a class="timer-btn green full-btn visible-xss" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Read the interview<small></small></a></div>
       
     </div>
     <div class="row">
@@ -208,6 +275,36 @@ $_SESSION['session']=$ur_session;
 
       </div>
     </div>
+  </div>
+</div>
+<div class="feedback">
+  <div class="container">
+    <h2>more innovative ways to GET feedback & reviews </h2>
+    <div class="row text-center">
+      <div class="col-sm-4"> <span><img src="images/new-img/icon1.png" width="196" height="195" alt="img"></span>
+        <h3>Email invitations</h3>
+      </div>
+      <div class="col-sm-4"> <span><img src="images/new-img/icon2.png" width="196" height="195" alt="img"></span>
+        <h3>Surveys</h3>
+      </div>
+      <div class="col-sm-4"> <span><img src="images/new-img/icon3.png" width="196" height="195" alt="img"></span>
+        <h3>Photo booth</h3>
+      </div>
+      
+      </div>
+      
+      <div class="row text-center">
+      <div class="col-sm-4"> <span><img src="images/new-img/icon4.png" width="196" height="195" alt="img"></span>
+        <h3>QR codes</h3>
+      </div>
+      <div class="col-sm-4"> <span><img src="images/new-img/icon5.png" width="196" height="195" alt="img"></span>
+        <h3>Feedback stations</h3>
+      </div>
+      <div class="col-sm-4"> <span><img src="images/new-img/icon6.png" width="196" height="195" alt="img"></span>
+        <h3>Post selfies</h3>
+      </div>
+    </div>
+   <!-- <div class="viewall visible-xs"><a href="#">click here to view more</a></div>-->
   </div>
 </div>
 <!--

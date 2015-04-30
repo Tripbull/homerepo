@@ -7,6 +7,7 @@ $(document).ready(function(){
 		tempdomail = 'http://www.tabluu.com/app/alpha.html'
  
 	function setuplink(){
+		
 		if(istimerunning > 0){
 			showLoader();
 			var data = 'opt=btngetcoupon&type='+$('#campaign').val();
@@ -50,11 +51,16 @@ $(document).ready(function(){
 		}}]
 	});
 	}
+	/*
 	$('#basic-link').click(function(e){e.preventDefault();setuplink();});
 	$('#pro-link').click(function(e){e.preventDefault();setuplink();});
 	$('#enter-link').click(function(e){e.preventDefault();setuplink();});
+	*/
+	$('#basic-link').attr('href', 'app/signup.html?type=1&plan=basic');
+	$('#pro-link').attr('href', 'app/signup.html?type=1&plan=pro');
+	$('#enter-link').attr('href', 'app/signup.html?type=1&plan=enterprise');	
   var clock = $('.worday').on('update.countdown', function(event){}).on('finish.countdown', function(event) {istimerunning = 0;});
-  switches();
+  //switches();
   function switches() {
     //var val = $(this).val().toString().match(/^([0-9\.]{1,})([a-z]{1})$/),
 	    var val = $('#txttime').val().split('_')
@@ -121,6 +127,10 @@ $(document).ready(function(){
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3356305/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3356306/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3356316/subscriptions/new'); */
+		
+		$('#basic-link').attr('href', 'app/signup.html?type=1&plan=basic');
+		$('#pro-link').attr('href', 'app/signup.html?type=1&plan=pro');
+		$('#enter-link').attr('href', 'app/signup.html?type=1&plan=enterprise'); 
 
 	});
 	$( ".year-plan" ).click(function(e) {
@@ -136,6 +146,9 @@ $(document).ready(function(){
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3405343/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3405345/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3410620/subscriptions/new'); */
+		$('#basic-link').attr('href', 'app/signup.html?type=2&plan=basic');
+		$('#pro-link').attr('href', 'app/signup.html?type=2&plan=pro');
+		$('#enter-link').attr('href', 'app/signup.html?type=2&plan=enterprise'); 
 	});
 	$( ".year2-plan" ).click(function(e) {
 		e.preventDefault();
@@ -150,7 +163,9 @@ $(document).ready(function(){
 		/*$('#basic-link').attr('href', 'https://tabluu.chargify.com/h/3405344/subscriptions/new');
 		$('#pro-link').attr('href', 'https://tabluu.chargify.com/h/3405346/subscriptions/new');
 		$('#enter-link').attr('href', 'https://tabluu.chargify.com/h/3410619/subscriptions/new');*/
-
+        $('#basic-link').attr('href', 'app/signup.html?type=3&plan=basic');
+		$('#pro-link').attr('href', 'app/signup.html?type=3&plan=pro');
+		$('#enter-link').attr('href', 'app/signup.html?type=3&plan=enterprise'); 
 		
 	});
 });
