@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="robots" content="index, follow"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -57,12 +57,14 @@ $connect->db_disconnect();
 		<div class="text-center">
 		 <nav class="navbar navbar-default" role="navigation"> 
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div id="subiconmenu" class="navbar-sub clear">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigator"> 
-				<span class="sr-only">Toggle navigation</span> <span class="arrow-down"></span> <!-- <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> --> </button>
+         
+		 <div id="subiconmenu" class="navbar-sub clear">
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigator"> 
+				<span class="sr-only">Toggle navigation</span> <span class="arrow-down"></span> <!-- <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>  </button>
             <a class="navbar-brand nav-title" href="#">Menu</a> 
 		  </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
+		  <!--
 		  <div id="wrapsubmenu">
           <div class="navbar-collapse collapse" id="navigator">
 			<ul class="nav navbar-nav pull-right">
@@ -72,15 +74,16 @@ $connect->db_disconnect();
             </ul>
           </div>
 		  </div>
-          <!-- /.navbar-collapse --> 
-        </nav>
+          -->
+        </nav> 
+		<!--
 		<div class="button-group">
 				<a href="#" class="month-plan"> <div class="left-button button dark">Monthly</div></a>
 				<a href="#" class="year-plan"><div class="button borderleftright">1 Yearly</div></a>
 				<a href="#" class="year2-plan"><div class="right-button button">2 Yearly</div></a>
 				<div class="clear"></div>
-			</div>
-		</div>
+			</div>-->
+		</div> 
 	  <div class="row text-center content-plan-menu" style="max-width: 1108px;">
 		 <!-- <div class="col-xs-6 col-sm-3 colscols">
 			<div class="contentwrap">
@@ -97,7 +100,7 @@ $connect->db_disconnect();
 			<div class="contentwrap">
 			<h4 class="plan-title">Basic</h4>
 			<p class="plan-subtitle">Discover</p>
-			<p class="price"><span class="basic-price">$9.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
+			<p class="price"><span class="basic-price">$19.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
 			<p class="plan-subtitle2">Get all these features...</p>
 			<ul>
 				<li>Collect feedback & reviews using fun & innovative ways</li>

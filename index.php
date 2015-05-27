@@ -4,14 +4,14 @@ $ur_session = rand(0, 15);
 $_SESSION['session']=$ur_session;
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="EQez1wVJd5ruzADIL1OQrBMh391ORWp8Nzfkpkhpso8" />
-<title>Tabluu - Collect & Promote X Selfie Reviews & Boost Sales</title>
-<meta name="title" content="Tabluu - Collect & Promote X Selfie Reviews & Boost Sales">
-<meta name="keywords" content="increase sales, hotel reviews, restaurant marketing, selfie review, restaurant reviews, spa review, boost sales, Tabluu">
+<title>Tabluu - Ask for a feedback & proactively get positive reviewers to recommend your business on the social media!</title>
+<meta name="title" content="Tabluu - Collect Positive Reviews & Proactively Ask for Recommendations & Shares to Boost Sales">
+<meta name="keywords" content="business recommendation, share hotel reviews, restaurant marketing, selfie review, share restaurant reviews, share spa reviews, boost sales, Tabluu">
 <meta name="description" content="Use Tabluu's X Sefie Review feature to get amazing spa, restaurant, and hotel reviews and increase sales today. Sign up now to Tabluu today.">
 <link href="css/bootstrap.css" rel="stylesheet" media="all">
 <link href="css/style.css" rel="stylesheet" media="all">
@@ -34,7 +34,7 @@ $_SESSION['session']=$ur_session;
   <ul class="slides">
     <li><img src="images/slider1.jpg"><span>
       <h3>Happy customers make great advocates for your business</h3>
-      <h2>GET YOUR CUSTOMERS TO POST "SELFIE REVIEWS" TO THEIR OWN FACEBOOK PAGES EASILY!</h2>
+      <h2>Get positive reviewers to recommend your website & business on the social media effortlessly!</h2>
       </span></li>
     <li><img src="images/m-slider2.jpg"><span>
       <h3>Only good reviews & ratings are shared on the social media!</h3>
@@ -124,7 +124,7 @@ $_SESSION['session']=$ur_session;
     </div> --> 
 	<div class="row none">
       <div class="cust-post">
-       <h1>GET YOUR CUSTOMERS TO POST "SELFIE REVIEWS" <br/> TO THEIR OWN FACEBOOK PAGES EASILY!</h1>
+       <h1>GET POSITIVE REVIEWERS TO RECOMMEND YOUR WEBSITE<br/> & BUSINESS ON THE SOCIAL MEDIA EFFORTLESSLY!</h1>
 	  </div>
     </div>
 	
@@ -163,7 +163,7 @@ $_SESSION['session']=$ur_session;
 <div class="container">
 	<div class="qrcode-content">
 		<div class="cust-post">
-		   <h1>JUST DISPLAY 20 'POST YOUR "X" SELFIE' <br/>MESSAGE PRINTS LIKE THIS ONE...</h1>
+		   <h1>USE OFFLINE - DISPLAY '20 POST YOUR<br/>"X" SELFIE' MESSAGE PRINTS LIKE THIS ONE...</h1>
 		   <div class="clear" style="padding:1em 0;"></div>
 			<div class="hidden-xs">
 				<div class="tblcontainer">
@@ -193,7 +193,7 @@ $_SESSION['session']=$ur_session;
 				<div class="text-center">
 					<div class="clear" style="padding:0.7em 0;"></div>
 					<p>Demo mobile link:</p> 
-					<a href="http://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>  (i.e. not supported)
+					<a href="https://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>
 				</div>
 				<div class="clear" style="padding:0.7em 0;"></div>
 				<div class="selfiereview text-center">"X" Selfie = Selfie + Review</div>
@@ -201,7 +201,7 @@ $_SESSION['session']=$ur_session;
 				<div class="tblcontainer">
 					<div class="row">
 						<div class="left text-right">
-							<div class="link" style="margin-right:40px"><a href="https://www.tabluu.com/pricing.html">See Pricing</a></div>
+							<div class="link" style="margin-right:40px"><a href="https://tabluu.com/pricing.html">See Pricing</a></div>
 						</div>
 						<div class="right text-left">
 							<div class="link" style="margin-left:40px"><a href="#" class="signupbtn">Start Now!</a></div>
@@ -231,13 +231,13 @@ $_SESSION['session']=$ur_session;
 				<div class="text-center">
 					<div class="clear" style="padding:0.5em 0;"></div>
 					<p>Demo mobile link:</p> 
-					<a href="http://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>  (i.e. not supported)
+					<a href="https://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>
 				</div>
 				<div class="clear" style="padding:0.7em 0;"></div>
 				<div style="width:100%;background-color:#ccc;padding:3px 0;line-height:30px; font-size:22px;padding:7px" class="text-center">"X" Selfie = Selfie + Review</div>
 				<div class="clear" style="padding:0.4em 0;"></div>
-				<div class="visible-xs"><a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://www.tabluu.com/pricing.html">See Pricing</a><br/>
-				<a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://www.tabluu.com/09z9wxb.html" target="_blank">Start Now</a>
+				<div class="visible-xs"><a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://tabluu.com/pricing.html">See Pricing</a><br/>
+				<a class="timer-btn signupbtn" style="margin-bottom:10px;width:100%" >Start Now!</a>
 				</div>
 			</div>
 		</div>
@@ -265,8 +265,8 @@ $_SESSION['session']=$ur_session;
           reviews", 545 followers, 9,345 new visitors 
           & counting! <u>43% increase in business</u> from April 2014 to Jan 2015. Currently only using Tabluu for promotional & social media marketing activities.</b></p>
       </div>
-      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://www.tabluu.com/09z9wxb.html" target="_blank" >Results</a><div style="clear:both;padding-top:20px;"></div><a class="pull-right" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview</a></div>
-      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" style="margin-bottom:10px" href="https://www.tabluu.com/09z9wxb.html" target="_blank">See the results here!<small></small></a><a class="timer-btn green full-btn visible-xss" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Read the interview<small></small></a></div>
+      <div class="col-sm-3 margin_T happy hidden-xs"><a class="pull-right" href="https://tabluu.com/09z9wxb.html" target="_blank" >Results</a><div style="clear:both;padding-top:20px;"></div><a class="pull-right" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Interview</a></div>
+      <div class="col-sm-3 visible-xs"><a class="timer-btn green full-btn visible-xss" style="margin-bottom:10px" href="https://tabluu.com/09z9wxb.html" target="_blank">See the results here!<small></small></a><a class="timer-btn green full-btn visible-xss" href="https://tabluu.com/blog/tabluu/interview-how-shao-kao-pik-increased-their-sales-to-43" target="_blank">Read the interview<small></small></a></div>
       
     </div>
     <div class="row">
