@@ -25,6 +25,7 @@ $_SESSION['session']=$ur_session;
 <link type="text/css" media="all" rel="stylesheet" href="css/dialog.css" >
 <script src="//load.sumome.com/" data-sumo-site-id="9e98d0a1ee03ad7942ebac5144759f147aafe068a407e46486c26b9a207c4300" async="async"></script>
 <?php include_once("analyticstracking.php") ?>
+<link rel="Shortcut Icon" href="http://www.tabluu.com/blog/wp-content/themes/Tabluu%20Theme%20V1/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
