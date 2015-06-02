@@ -16,7 +16,6 @@
 	<script type="text/javascript" src="js/star-rating.js"></script>
 	<script type="text/javascript" src="js/pricing.js"></script>
 	<link type="text/css" media="all" rel="stylesheet" href="css/dialog.css" >
-	<script src="//load.sumome.com/" data-sumo-site-id="9e98d0a1ee03ad7942ebac5144759f147aafe068a407e46486c26b9a207c4300" async="async"></script>
 	<?php include_once("analyticstracking.php") ?>
 </head>
 <body class="pricing">
