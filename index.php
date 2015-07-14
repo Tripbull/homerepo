@@ -31,7 +31,7 @@ $_SESSION['session']=$ur_session;
 <body>
 <?php require_once('browser_detection.php'); ?>
 <?php require_once('header.html'); ?>
-<div class="flexslider">
+<!-- <div class="flexslider">
   <ul class="slides">
     <li><img src="images/slider1.jpg"><span>
       <h3>Happy customers make great advocates for your business</h3>
@@ -50,7 +50,7 @@ $_SESSION['session']=$ur_session;
       <h2>Your brand name, address, phone & positive ratings displayed on your customers' photos!</h2>
       </span></li>
   </ul>
-</div>
+</div> -->
 <!--
 <div class="banner-section">
   <div class="container">
@@ -112,6 +112,48 @@ $_SESSION['session']=$ur_session;
     </div>
   </div>
 </div> -->
+<div class="qrcode-wrap">
+  <div class="container">
+      <div class="qrcode-content" style="margin-top:50px;">
+        <div class="cust-post"> 
+           <h1>ASK & YOU CAN GET USER GENERATED CONTENT<br/>FOR SOCIAL MEDIA MARKETING EASILY!</h1> 
+           <div class="clear" style="padding:1em 0;"></div>
+          <!-- <div class="hidden-xs"> -->
+            <div class="tblcontainer">
+              <div class="row">
+                <div class="gallery">
+                  <img src="images/ask.jpeg"/>
+                </div>
+              </div>
+            </div>
+          <!-- </div>  -->
+        </div>
+        
+      </div>
+  </div>  
+</div>
+
+<div class="qrcode-wrap secondrow">
+<div class="clear" style="padding:1em 0;"></div>
+<div class="container">
+  <div class="qrcode-content">
+    <div class="cust-post">
+           <h1>ASK FOR SELFIES & CREATE ONLINE MARKETING<br/>CAMPAIGNS MORE VIRAL THAN WITH INSTAGRAM!</h1>
+       <div class="clear" style="padding:1em 0;"></div>
+      <!-- <div class="hidden-xs"> -->
+        <div class="tblcontainer">
+          <div class="row">
+            <div class="gallery">
+              <img src="images/selfieonly.jpg"/>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<div class="clear" style="padding:1em 0;"></div>
 <div class="container">
   <div class="content">
 	<!--
@@ -125,7 +167,7 @@ $_SESSION['session']=$ur_session;
     </div> --> 
 	<div class="row none">
       <div class="cust-post">
-       <h1>GET POSITIVE REVIEWERS TO RECOMMEND YOUR WEBSITE<br/> & BUSINESS ON THE SOCIAL MEDIA EFFORTLESSLY!</h1>
+       <h1>ASK FOR FEEDBACK & GET 100x MORE<br/>RECOMMENDATIONS THAN EVER BEFORE!</h1>
 	  </div>
     </div>
 	
@@ -160,92 +202,36 @@ $_SESSION['session']=$ur_session;
     </div>
   </div>
 </div>
+
 <div class="qrcode-wrap">
 <div class="container">
-	<div class="qrcode-content">
-		<div class="cust-post">
-		   <h1>USE OFFLINE - DISPLAY '20 POST YOUR<br/>"X" SELFIE' MESSAGE PRINTS LIKE THIS ONE...</h1>
-		   <div class="clear" style="padding:1em 0;"></div>
-			<div class="hidden-xs">
-				<div class="tblcontainer">
-					<div class="row">
-						<div class="left text-right">
-							<img src="images/x_selfie_message_print.png" class="dqrcodeprint" />
-						</div>
-						<div class="right text-left">
-							<div class="text-left dqrcodetxt">
-							<ul>
-								<li class="nostyle"><b>DISPLAY THEM AT:</b></li>
-								<li>LOBBIES</li>
-								<li>DINNING TABLES</li>
-								<li>POOL SIDE TABLES</li>
-								<li>HOTEL ROOMS</li>
-								<li>OPENING EVENTS</li>
-								<li>WAITING AREAS</li>											
-								<li>EXHIBITION HALLS</li>
-								<li>LOUNGES</li>
-								<li>ATTRACTIONS</li>
-								<li>OTHER "CHILL OUT" SPOTS</li>
-							</ul>
-							</div> 
-						</div>
-					</div>
-				</div>
-				<div class="text-center">
-					<div class="clear" style="padding:0.7em 0;"></div>
-					<p>Demo mobile link:</p> 
-					<a href="https://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>
-				</div>
-				<div class="clear" style="padding:0.7em 0;"></div>
-				<div class="selfiereview text-center">"X" Selfie = Selfie + Review</div>
-				<div class="clear" style="padding:1em 0;"></div>
-				<div class="tblcontainer">
-					<div class="row">
-						<div class="left text-right">
-							<div class="link" style="margin-right:40px"><a href="https://tabluu.com/pricing.html">See Pricing</a></div>
-						</div>
-						<div class="right text-left">
-							<div class="link" style="margin-left:40px"><a href="#" class="signupbtn">Start Now!</a></div>
-						</div>
-					</div>
-				</div>
-			</div>	
-			<div class="visible-xs text-center">
-				<img src="images/x_selfie_message_print.png" class="self-img" />
-				<div class="clear" style="padding:1em"></div>
-				<div class="text-left" style="width:350px;margin:0 auto"> 
-					<ul>
-						<li class="nostyle"><b>DISPLAY THEM AT:</b></li>
-						<li>LOBBIES</li>
-						<li>DINNING TABLES</li>
-						<li>POOL SIDE TABLES</li>
-						<li>HOTEL ROOMS</li>
-						<li>OPENING EVENTS</li>
-						<li>WAITING AREAS</li>							
-						<li>EXHIBITION HALLS</li>
-						<li>LOUNGES</li>
-						<li>ATTRACTIONS</li>
-						<li>OTHER "CHILL OUT" SPOTS</li>	
-						
-					</ul>
-				</div>
-				<div class="text-center">
-					<div class="clear" style="padding:0.5em 0;"></div>
-					<p>Demo mobile link:</p> 
-					<a href="https://tabluu.com/awjn0e" target="_blank">tabluu.com/awjn0e</a>
-				</div>
-				<div class="clear" style="padding:0.7em 0;"></div>
-				<div style="width:100%;background-color:#ccc;padding:3px 0;line-height:30px; font-size:22px;padding:7px" class="text-center">"X" Selfie = Selfie + Review</div>
-				<div class="clear" style="padding:0.4em 0;"></div>
-				<div class="visible-xs"><a class="timer-btn" style="margin-bottom:10px;width:100%" href="https://tabluu.com/pricing.html">See Pricing</a><br/>
-				<a class="timer-btn signupbtn" style="margin-bottom:10px;width:100%" >Start Now!</a>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+  <div class="qrcode-content">
+    <div class="cust-post">
+        <div class="tblcontainer sliderimage">
+                <h1>ASK FOR FEEDBACK & GET 100x MORE<br/>RECOMMENDATIONS THAN EVER BEFORE!</h1>
+               <div class="clear" style="padding:1em 0;"></div>
+          <div class="row">
+            <div class="gallery">
+              <img src="images/sliderimage.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div class="clear" style="padding:1em 0;"></div>
+        <div class="tblcontainer">
+          <div class="row">
+            <div class="left text-right">
+              <div class="link"><a href="https://tabluu.com/pricing.html">See Pricing</a></div>
+            </div>
+            <div class="right text-left">
+              <div class="link"><a href="#" class="signupbtn">Start Now!</a></div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 </div>  
 </div>
+
 <div class="users">
   <div class="container">
     <h2>WHAT OUR USERS ARE SAYING…</h2>
@@ -273,7 +259,6 @@ $_SESSION['session']=$ur_session;
     <div class="row">
       <div class="gallery">
         <img src="images/profiles-img.jpg" alt="" class="img-responsive" />
-
       </div>
     </div>
   </div>

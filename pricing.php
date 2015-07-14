@@ -95,47 +95,65 @@ $connect->db_disconnect();
 			   </div>
 			   <a href="#" id="pro-link" class="color-button inline-block">Sign up</a>
 		  </div> -->
-		  <div class="col-sm-4 cols">
+		  <div class="col-sm-3 cols">
 			<div class="contentwrap">
-			<h4 class="plan-title">Basic</h4>
+			<h4 class="plan-title">Lite</h4>
 			<p class="plan-subtitle">Discover</p>
-			<p class="price"><span class="basic-price">$19.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
+			<p class="price"><span class="basic-price">$9.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly per</span> <br/> campaign / site</span></p>
 			<p class="plan-subtitle2">Get all these features...</p>
 			<ul>
-				<li>Collect feedback & reviews using fun & innovative ways</li>
-				<li>Get your customers to share only positive reviews on the social media</li>
-				<li>Your very own customer advocacy (Tabluu) page for your business</li>
-				<li>Customize your feedback & review page</li>
+				<li>15 days free trial</li>
+				<li>Collect unlimited responses using Tabluu's website feedback widget</li>
+				<li>Fully customize your questions & your response page's look & feel</li>
+				<li>Get your target audience to share your website or business on the social media proactively</li>
 			</ul>
 			</div>
 			<a href="#" id="basic-link" class="color-button color-4 inline-block">Sign up</a>
 		  </div>
-		  <div class="col-sm-4 cols secondcols">
+		  <div class="col-sm-3 cols secondcols">
+			<div class="contentwrap">
+			<h4 class="plan-title">Basic</h4>
+			<p class="plan-subtitle">Explore</p>
+			<p class="price"><span class="basic-price">$19.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly per</span> <br/> campaign / site</span></p>
+			<p class="plan-subtitle2">Get all these features from Lite plan... plus...</p>
+			<ul>
+				<li>Collect offline responses using surveys, feedback stations & QR Codes</li>
+				<li>Send out email invitations to get responses</li>
+				<li>Create labels to identify the exact location of the collected responses</li>
+				<li>Option to redirect visitors from the social media to your desired landing page (coming soon!)</li>
+			</ul>
+			</div>
+			<a href="#" id="basic-link" class="color-button color-4 inline-block">Sign up</a>
+		  </div>
+		  <div class="col-sm-3 cols">
 			<div class="contentwrap">
 			<h4 class="plan-title">Pro</h4>
 			<p class="plan-subtitle">Optimize</p>
-			<p class="price"><span class="pro-price">$29.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
+			<p class="price"><span class="pro-price">$29.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly per</span> <br/> campaign / site</span></p>
 			<p class="plan-subtitle2">Get all the features from the Basic plan... plus...</p>
 			<ul>
-				<li>Manage your Tabluu reviews</li>
-				<li>Customize your customers' social media posts</li>
-				<li>Display Tabluu reviews on your online sales page using widgets</li>
-				<li>Create customized / vanity links (coming soon!)</li>
+				<li>Manage & feature reviews on your Tabluu page</li>
+				<li>Customize your audience's social media message posts</li>
+				<li>Use Tabluu's review widget on your online sales pages to increase conversion ratio</li>
+				<li>Get your own Tabluu custom / vanity link</li>
 			</ul>	
 			</div>
 			<a href="#" id="pro-link" class="color-button color-4 inline-block">Sign up</a>	
 		  </div>
-		  <div class="col-sm-4 cols">
+		  <div class="col-sm-3 cols secondcols">
+		  	<div class="ribbon-overlay">
+		  		<div class="ribbon">Go Viral</div>
+			</div>
 			<div class="contentwrap">
 			<h4 class="plan-title">Enterprise</h4>
 			<p class="plan-subtitle">Supercharge</p>
-			<p class="price"><span class="enter-price">$59.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly</span> <br/> per location</span></p>
+			<p class="price"><span class="enter-price">$59.90</span><span style="font-size:15px;float:right;margin-right:20px"><span class="txtmontly">monthly per</span> <br/> campaign / site</span></p>
 			<p class="plan-subtitle2">Get all the features from the Pro plan... plus...</p>
 			<ul>
-				<li>Real time poor feedback alerts</li>
-				<li>Collect feedback & reviews using the Photo Booth feature</li>
-				<li>Post customers' reviews to your social media pages (coming soon!)</li>
-				<li>Collect feedback using the "Your Selfie Here!" feature (coming soon!)</li>
+				<li>Create "Selfie Taking Campaigns" that are awesome for fan list building, brand exposure, social causes, fund raising, contests & viral marketing</li>				
+				<li>Manage & feature selifes on your Tabluu page</li>				
+				<li>Real time poor feedback email alerts</li>
+				<li>Collect feedback using Tabluu's Photo Booth feature</li>
 			</ul>
 			</div>
 			<a href="#" id="enter-link" class="color-button color-4 inline-block">Sign up</a>	
@@ -148,7 +166,7 @@ $connect->db_disconnect();
 </section>
 <section class="plan-section2">
 	<div class="container">
-		<h4 class="plan-title">All plans are power-packed with loads of<br/> amazing features, including:</h4>
+		<h2 class="plan-title">All plans are power-packed with loads of<br/> amazing features, including:</h2>
 		 <div class="clear" style="padding-top:40px;"></div>
 		 <div class="align-center" style="float:left;width:50%;">
 			<ul>
